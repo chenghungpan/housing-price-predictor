@@ -36,7 +36,7 @@ Also, you evaluate the performance by :<br>
 #### 4. green_app: 
 `cd green-mle-project-xgboost` <br>
 `./run_docker` <br>
-the blue-app will be deployed, and the localhost is ready to serve <br>
+The blue-app will be deployed, and the localhost is ready to serve <br>
 You can run in a different window (with conda venv 'housing') under the same directory: <br>
 `python test.py` <br>
 it will show 100 testing url responses. <br>
@@ -45,7 +45,7 @@ Also, you evaluate the performance by : <br>
 #### 5. bonus_app: 
 `cd green-mle-project-xgboost` <br>
 `./run_docker` <br>
-the blue-app will be deployed, and the localhost is ready to serve
+The green-app will be deployed, and the localhost is ready to serve.
 you can run in a different window (with conda venv 'housing') under the same directory: <br>
 `python test.py` <br>
 it will show 100 testing url responses <br>
