@@ -18,10 +18,10 @@ This project is a Housing Price Prediction System that leverages machine learnin
 
 ## Getting Started
 #### 1. Clone the repository
-   `git clone <repository-url>`
+   `git clone <repository-url>`<br>
 #### 2. Activate the environment:
-`conda env create -f conda_environment.yml`
-`conda activate housing`
+`conda env create -f conda_environment.yml`<br>
+`conda activate housing`<br>
 
 #### 3. blue_app: 
 `cd blue-mle-project-kneighbors`
