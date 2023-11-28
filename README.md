@@ -31,7 +31,7 @@ you can run in a different window (with conda venv 'housing') under the same dir
 it will show 100 testing url responses
 Also, you evaluate the performance by :
 `python evaluate.py` 
-<br>
+
 4. green_app: 
 `cd green-mle-project-xgboost`
 `./run_docker`
