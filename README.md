@@ -17,12 +17,13 @@ This project is a Housing Price Prediction System that leverages machine learnin
 - Blue/Green Deployment: Docker built images and deployment, allow real-time switch between blue app and green app.
 
 ## Getting Started
-1. <b>Clone the repository:</b> `git clone <repository-url>`
-2. Activate the environment:
+1. #### Clone the repository
+   `git clone <repository-url>`
+3. #### Activate the environment:
 `conda env create -f conda_environment.yml`
 `conda activate housing`
 
-3. blue_app: 
+4. blue_app: 
 `cd blue-mle-project-kneighbors`
 `./run_docker`
 the blue-app will be deployed, and the localhost is ready to serve
@@ -32,7 +33,7 @@ it will show 100 testing url responses
 Also, you evaluate the performance by :
 `python evaluate.py` 
 
-4. green_app: 
+5. green_app: 
 `cd green-mle-project-xgboost`
 `./run_docker`
 the blue-app will be deployed, and the localhost is ready to serve
@@ -42,7 +43,7 @@ it will show 100 testing url responses
 Also, you evaluate the performance by :
 `python evaluate.py` 
 
-5. bonus_app: 
+6. bonus_app: 
 `cd green-mle-project-xgboost`
 `./run_docker`
 the blue-app will be deployed, and the localhost is ready to serve
@@ -52,7 +53,7 @@ it will show 100 testing url responses
 Also, you evaluate the performance by :
 `python evaluate.py` 
 
-6. blue/green test:
+7. blue/green test:
 You can start or stop either blue or green tests to control which app will be deployed:
 `docker start blue-app`
 `python evaluate.py`
@@ -61,7 +62,7 @@ You can start or stop either blue or green tests to control which app will be de
 `python evaluate.py`
 `docker stop green-app`
 
-7. bonus test: (go to bonus-mle-project directory)
+8. bonus test: (go to bonus-mle-project directory)
 `docker start bonus-app`
 `python test.py` 
 `python evaluate.py`
