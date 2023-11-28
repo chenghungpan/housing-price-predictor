@@ -40,31 +40,31 @@ the blue-app will be deployed, and the localhost is ready to serve
 you can run in a different window (with conda venv 'housing') under the same directory:
 `python test.py`
 it will show 100 testing url responses
-Also, you evaluate the performance by :<br>
-`python evaluate.py` 
+Also, you evaluate the performance by : <br>
+`python evaluate.py` <br>
 #### 5. bonus_app: 
-`cd green-mle-project-xgboost`
-`./run_docker`
+`cd green-mle-project-xgboost` <br>
+`./run_docker` <br>
 the blue-app will be deployed, and the localhost is ready to serve
-you can run in a different window (with conda venv 'housing') under the same directory:
-`python test.py`
-it will show 100 testing url responses
+you can run in a different window (with conda venv 'housing') under the same directory: <br>
+`python test.py` <br>
+it will show 100 testing url responses <br>
 Also, you evaluate the performance by :<br>
 `python evaluate.py` 
 
 #### 6. blue/green test:
-You can start or stop either blue or green tests to control which app will be deployed:<br>
-`docker start blue-app`<br>
-`python evaluate.py`<br>
-`docker stop blue-app`<br>
-`docker start green-app`<br>
-`python evaluate.py`<br>
-`docker stop green-app`<br>
+You can start or stop either blue or green tests to control which app will be deployed: <br>
+`docker start blue-app` <br>
+`python evaluate.py` <br>
+`docker stop blue-app` <br>
+`docker start green-app` <br>
+`python evaluate.py` <br>
+`docker stop green-app` <br>
 
 #### 7. bonus test: (go to bonus-mle-project directory)
-`docker start bonus-app`<br>
+`docker start bonus-app` <br>
 `python test.py` <br>
-`python evaluate.py`<br>
+`python evaluate.py` <br>
 
 
 
