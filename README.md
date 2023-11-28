@@ -17,7 +17,7 @@ This project is a Housing Price Prediction System that leverages machine learnin
 - Blue/Green Deployment: Docker built images and deployment, allow real-time switch between blue app and green app.
 
 ## Getting Started
-1. Clone the repository: `git clone <repository-url>`
+1. <b>Clone the repository:</b> `git clone <repository-url>`
 2. Activate the environment:
 `conda env create -f conda_environment.yml`
 `conda activate housing`
