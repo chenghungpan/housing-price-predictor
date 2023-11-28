@@ -54,17 +54,17 @@ Also, you evaluate the performance by :<br>
 
 #### 6. blue/green test:
 You can start or stop either blue or green tests to control which app will be deployed:<br>
-`docker start blue-app`
-`python evaluate.py`
-`docker stop blue-app`
-`docker start green-app`
-`python evaluate.py`
-`docker stop green-app`
+`docker start blue-app`<br>
+`python evaluate.py`<br>
+`docker stop blue-app`<br>
+`docker start green-app`<br>
+`python evaluate.py`<br>
+`docker stop green-app`<br>
 
 #### 7. bonus test: (go to bonus-mle-project directory)
-`docker start bonus-app`
-`python test.py` 
-`python evaluate.py`
+`docker start bonus-app`<br>
+`python test.py` <br>
+`python evaluate.py`<br>
 
 
 
