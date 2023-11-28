@@ -41,7 +41,7 @@ you can run in a different window (with conda venv 'housing') under the same dir
 it will show 100 testing url responses
 Also, you evaluate the performance by :
 `python evaluate.py` 
-<br>
+
 5. bonus_app: 
 `cd green-mle-project-xgboost`
 `./run_docker`
@@ -51,7 +51,7 @@ you can run in a different window (with conda venv 'housing') under the same dir
 it will show 100 testing url responses
 Also, you evaluate the performance by :
 `python evaluate.py` 
-<br>
+
 6. blue/green test:
 You can start or stop either blue or green tests to control which app will be deployed:
 `docker start blue-app`
@@ -60,7 +60,7 @@ You can start or stop either blue or green tests to control which app will be de
 `docker start green-app`
 `python evaluate.py`
 `docker stop green-app`
-<br>
+
 7. bonus test: (go to bonus-mle-project directory)
 `docker start bonus-app`
 `python test.py` 
