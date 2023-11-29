@@ -53,7 +53,7 @@ Also, you evaluate the performance by :<br>
 `python evaluate.py` 
 
 #### 6. blue/green test:
-You can start or stop either blue or green tests to control which app will be deployed: <br>
+You can start or stop either blue or green tests to control which app to be deployed: <br>
 `docker start blue-app` <br>
 `python evaluate.py` <br>
 `docker stop blue-app` <br>
