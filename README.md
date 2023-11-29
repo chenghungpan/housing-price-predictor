@@ -18,7 +18,7 @@ This project is a Housing Price Prediction System that leverages machine learnin
 
 ## Getting Started
 #### 1. Clone the repository
-   `git clone <repository-url>`<br>
+   `git clone <repository-url>`
 #### 2. Activate the environment:
 `conda env create -f conda_environment.yml`<br>
 `conda activate housing`<br>
