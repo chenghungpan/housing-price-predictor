@@ -11,9 +11,9 @@ This project is a Housing Price Prediction System that leverages machine learnin
      #### 1) blue-mle-project-kneighbors/ <br>
      -original k neighbors model with R2 of `73.63%`.
      #### 2) green-mle-project-xgboost/ <br>
-     -modified Xgboost model with R2 of `86.64%`.
+     -modified `Xgboost` model with R2 of `86.64%`.
      #### 3) bonus-mle-project-kneighbors/ <br>
-     -k neighbors model with only minimum features with R2 of `53.66`. <br>  <br>
+     -`k neighbors` model with only minimum features with R2 of `53.66`. <br>  <br>
 - Blue/Green Deployment: Docker built images and deployment, allow real-time switch between blue app and green app.
 
 ## Getting Started
